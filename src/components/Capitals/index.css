@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.inner-container {
+  background-color: #f8fafc;
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #323f4b;
+  font-size: 25px;
+}
+.select-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.options-text {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 15px;
+  cursor: pointer;
+}
+.select-option {
+  padding: 10px;
+  font-family: 'Roboto';
+  color: #000000;
+  font-weight: 500;
+  width: 50%;
+  outline: none;
+  align-self: center;
+}
+.capital {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 13px;
+  margin-left: 10px;
+}
+.country {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 24px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .inner-container {
+    width: 500px;
+    height: 280px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .capital {
+    font-size: 17px;
+  }
+  .country {
+    font-size: 30px;
+  }
+  .inner-container {
+    padding: 40px;
+    border-radius: 15px;
+  }
+}
